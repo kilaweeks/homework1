@@ -1,0 +1,133 @@
+/* Styles page layout */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles page background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Styles company header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Styles header links in navigation bar */
+header ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Styles company header */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+/* Styles headers in "content" section */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles headers in "benefits" section */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styles links in navigation bar*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Styles paragraph text */
+p {
+    font-size: 16px;
+}
+
+/* Styles background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styles images in "content" section to float left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Styles images in "content" section to float right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styles "content" section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styles "content-section" sections */
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles "benefits" section */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styles display of images */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+/* Styles footer */
+footer {
+    font-size: 20px;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
